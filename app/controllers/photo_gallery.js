@@ -4,6 +4,12 @@ steroids.view.navigationBar.show("InstaTim");
 // Set the WebView background color (effective on iOS only)
 steroids.view.setBackgroundColor("#444");
 
+var singleView = new steroids.views.WebView({
+    location:   "/views/photo_gallery/single.html",
+    id:         "singleView"
+});
+singleView.preload();
+
 $(function() {
 
 	$('#thumbnails img').on('click',function(){

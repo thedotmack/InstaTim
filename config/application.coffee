@@ -5,20 +5,24 @@ steroids.config.name = "instatim"
 
 # ## Start Location
 # steroids.config.location = "http://localhost/index.html"
-steroids.config.location = "http://localhost/views/application/index.html"
+steroids.config.location = "http://localhost/views/photo_gallery/index.html"
 
 # ## Tab Bar
+# Note: Learn more about tab bar setup and more at
+# https://academy.appgyver.com/categories/3-user-interface-and-design/contents 
+# 
 steroids.config.tabBar.enabled = true
+
 steroids.config.tabBar.tabs = [
   {
     title: "Gallery"
     icon: "icons/photos@2x.png"
-    location: "http://localhost/views/application/index.html"
+    location: "http://localhost/views/photo_gallery/index.html"
   },
   {
     title: "Feed"
     icon: "icons/feed@2x.png"
-    location: "http://localhost/views/application/feed.html"
+    location: "http://localhost/views/photo_gallery/feed.html"
   }
 ]
 
